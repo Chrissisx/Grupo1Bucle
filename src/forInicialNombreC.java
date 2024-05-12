@@ -2,7 +2,7 @@ public class forInicialNombreC {
 
     public void inicialNombreC(int tamano, char caracter){
         
-        for(int i = 0; i < tamano ; i++) {
+        for(int i = 0; i < tamano; i++) {
             System.out.print(caracter);
         }
         System.out.println();

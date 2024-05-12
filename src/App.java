@@ -12,11 +12,27 @@ public class App {
         forInicialApellidoC af;
         forInicialNombreApellidoCC naf;
 
+        whileInicialNombreC nw;
+        whileInicialApellidoC aw;
+        whileInicialNombreApellidoCC naw;
+
+        doWhileInicialNombreC ndw;
+        doWhileInicialApellidoC adw;
+        doWhileInicialNombreApellidoCC nadw;
+
         //Instanciar
         nf = new forInicialNombreC();
         af = new forInicialApellidoC();
         naf = new forInicialNombreApellidoCC();
-        
+
+        nw = new whileInicialNombreC();
+        aw = new whileInicialApellidoC();
+        naw = new whileInicialNombreApellidoCC();
+
+        ndw = new doWhileInicialNombreC();
+        adw = new doWhileInicialApellidoC();
+        nadw = new doWhileInicialNombreApellidoCC();
+
         System.out.println("*********************************");
         System.out.println("*                               *");
         System.out.println("*            GRUPO 1            *");
@@ -40,5 +56,17 @@ public class App {
         af.inicialApellidoC(tamano, caracter);
         System.out.println();
         naf.inicialNombreApellidoCC(tamano, caracter);
+        System.out.println("\nCICLO WHILE: "+"\n");
+        nw.inicialNombreC(tamano, caracter);
+        System.out.println();
+        aw.inicialApellidoC(tamano, caracter);
+        System.out.println();
+        naw.inicialNombreApellidoCC(tamano, caracter);
+        System.out.println("\nCICLO DO WHILE: "+"\n");
+        ndw.inicialNombreC(tamano, caracter);
+        System.out.println();
+        adw.inicialApellidoC(tamano, caracter);
+        System.out.println();
+        nadw.inicialNombreApellidoCC(tamano, caracter);
     }
 }

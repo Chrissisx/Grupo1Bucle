@@ -8,6 +8,8 @@ public class App {
         char caracter;
 
         //Declarar
+
+        //Parte Christopher Criollo
         forInicialNombreC nf;
         forInicialApellidoC af;
         forInicialNombreApellidoCC naf;
@@ -19,6 +21,14 @@ public class App {
         doWhileInicialNombreC ndw;
         doWhileInicialApellidoC adw;
         doWhileInicialNombreApellidoCC nadw;
+        //Parte Jairo Angulo
+
+        //Parte Joan Bedon
+
+        //Parte Camila Caicedo
+
+        //Parte Estefano Condoy
+        
 
         //Instanciar
 
@@ -34,6 +44,14 @@ public class App {
         ndw = new doWhileInicialNombreC();
         adw = new doWhileInicialApellidoC();
         nadw = new doWhileInicialNombreApellidoCC();
+        //Parte Jairo Angulo
+
+        //Parte Joan Bedon
+
+        //Parte Camila Caicedo
+
+        //Parte Estefano Condoy
+
 
         System.out.println("*********************************");
         System.out.println("*                               *");
@@ -70,5 +88,6 @@ public class App {
         adw.inicialApellidoC(tamano, caracter);
         System.out.println();
         nadw.inicialNombreApellidoCC(tamano, caracter);
+ 
     }
 }

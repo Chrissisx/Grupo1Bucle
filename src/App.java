@@ -21,6 +21,8 @@ public class App {
         doWhileInicialNombreApellidoCC nadw;
 
         //Instanciar
+
+        //Parte Christopher Criollo
         nf = new forInicialNombreC();
         af = new forInicialApellidoC();
         naf = new forInicialNombreApellidoCC();

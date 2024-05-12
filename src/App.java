@@ -34,7 +34,7 @@ public class App {
         //Llamar al metodo
 
         System.out.println("CHRISTOPHER CRIOLLO");
-        System.out.println("CICLO FOR: ");
+        System.out.println("CICLO FOR: "+"\n");
         nf.inicialNombreC(tamano, caracter);
         System.out.println();
         af.inicialApellidoC(tamano, caracter);

@@ -28,7 +28,17 @@ public class App {
         //Parte Camila Caicedo
 
         //Parte Estefano Condoy
-        
+        forInicialNombreE ef ;
+        forInicialApellidoC2 df;
+        forInicialNombreApellidoEC ecf;
+
+        whileInicialNombreE ew;
+        whileInicialApellidoC2 dw;
+        whileInicialNombreApellidoEC ecw;
+
+        doWhileInicialNombreE edw;
+        doWhileInicialApellidoC2 ddw;
+        doWhileInicialNombreApellidoEC ecdw;
 
         //Instanciar
 
@@ -51,7 +61,17 @@ public class App {
         //Parte Camila Caicedo
 
         //Parte Estefano Condoy
+        ef = new forInicialNombreE();
+        df = new forInicialApellidoC2();
+        ecf = new forInicialNombreApellidoEC();
 
+        ew = new whileInicialNombreE();
+        dw = new whileInicialApellidoC2();
+        ecw = new whileInicialNombreApellidoEC();
+
+        edw = new doWhileInicialNombreE();
+        ddw = new doWhileInicialApellidoC2();
+        ecdw = new doWhileInicialNombreApellidoEC();
 
         System.out.println("*********************************");
         System.out.println("*                               *");
@@ -88,6 +108,28 @@ public class App {
         adw.inicialApellidoC(tamano, caracter);
         System.out.println();
         nadw.inicialNombreApellidoCC(tamano, caracter);
- 
+        System.out.println();
+
+        System.out.println("ESTEFANO CONDOY");
+        System.out.println("CICLO FOR: "+"\n");
+        ef.inicialNombreE(tamano, caracter);
+        System.out.println();
+        df.inicialApellidoC2(tamano, caracter);
+        System.out.println();
+        ecf.inicialNombreApellidoEC(tamano, caracter);
+        System.out.println("\nCICLO WHILE: "+"\n");
+        ew.inicialNombreE(tamano, caracter);
+        System.out.println();
+        dw.inicialApellidoC2(tamano, caracter);
+        System.out.println();
+        ecw.inicialNombreApellidoEC(tamano, caracter);
+        System.out.println("\nCICLO DO WHILE: "+"\n");
+        edw.inicialNombreE(tamano, caracter);
+        System.out.println();
+        ddw.inicialApellidoC2(tamano, caracter);
+        System.out.println();
+        ecdw.inicialNombreApellidoEC(tamano, caracter);
+        System.out.println();
+    
     }
 }

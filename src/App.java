@@ -35,6 +35,17 @@ public class App {
         doWhileInicialApellidoA djr;
         doWhileInicialNombreApellidoJA dwa;
         //Parte Joan Bedon
+        forInicialNombreJ2 jf;
+        forInicialApellidoB b2f;
+        forInicialNombreApellidoJB jbf;
+
+        whileInicialNombreJ2 jw;
+        whileInicialApellidoB bw;
+        whileInicialNombreApellidoJB jbw;
+
+        doWhileInicialNombreJ2 jdw;
+        doWhileInicialApellidoB bdw;
+        doWhileInicialNombreApellidoJB jbdw;
 
         //Parte Camila Caicedo
         forNombreC name;
@@ -92,6 +103,17 @@ public class App {
 
 
         //Parte Joan Bedon
+        jf = new forInicialNombreJ2();
+        b2f = new forInicialApellidoB();
+        jbf = new forInicialNombreApellidoJB();
+
+        jw = new whileInicialNombreJ2();
+        bw = new whileInicialApellidoB();
+        jbw = new whileInicialNombreApellidoJB();
+
+        jdw = new doWhileInicialNombreJ2();
+        bdw = new doWhileInicialApellidoB();
+        jbdw = new doWhileInicialNombreApellidoJB();
 
         //Parte Camila Caicedo
         name = new forNombreC();
@@ -201,8 +223,26 @@ public class App {
         djr.dowhileApellido(tamano, caracter);
         dwa.whileNombreApellido(tamano, caracter);
 
-
-
+        System.out.println("JOAN BEDON");
+        System.out.println("CICLO FOR: "+"\n");
+        jf.forNombre(tamano, caracter);
+        System.out.println();
+        b2f.inicialApellidoB(tamano, caracter);
+        System.out.println();
+        jbf.inicialNombreApellidoJB(tamano, caracter);
+        System.out.println("\nCICLO WHILE: "+"\n");
+        jw.whileInicialNombreJ2(tamano, caracter);
+        System.out.println();
+        bw.inicialApellidoB(tamano, caracter);
+        System.out.println();
+        jbw.inicialNombreApellidoJB(tamano, caracter);
+        System.out.println("\nCICLO DO WHILE: "+"\n");
+        jdw.inicialNombreJ2(tamano, caracter);
+        System.out.println();
+        bdw.inicialApellidoB(tamano, caracter);
+        System.out.println();
+        jbdw.inicialNombreApellidoJB(tamano, caracter);
+        System.out.println();
     
     }
 }

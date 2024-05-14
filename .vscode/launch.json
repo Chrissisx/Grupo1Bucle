@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Grupo1Bucle_e145bcab"
+        },
+        {
+            "type": "java",
             "name": "forInicialNombreApellidoEC",
             "request": "launch",
             "mainClass": "forInicialNombreApellidoEC",

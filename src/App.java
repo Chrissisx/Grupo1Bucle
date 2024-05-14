@@ -21,8 +21,19 @@ public class App {
         doWhileInicialNombreC ndw;
         doWhileInicialApellidoC adw;
         doWhileInicialNombreApellidoCC nadw;
-        //Parte Jairo Angulo
 
+        //Parte Jairo Angulo
+        forInicialApellidoA bf;
+        forInicialNombreJ bn;
+        forInicialNombreApellidoJA ba;
+
+        whileInicialNombreJ bv;
+        whileInicialApellidoA bp;
+        whileInicialNombreApellidoJA bpj;
+
+        doWhileInicialNombreJ dwj;
+        doWhileInicialApellidoA djr;
+        doWhileInicialNombreApellidoJA dwa;
         //Parte Joan Bedon
 
         //Parte Camila Caicedo
@@ -65,7 +76,20 @@ public class App {
         ndw = new doWhileInicialNombreC();
         adw = new doWhileInicialApellidoC();
         nadw = new doWhileInicialNombreApellidoCC();
+
         //Parte Jairo Angulo
+        bf = new forInicialApellidoA();
+        bn = new forInicialNombreJ();
+        ba = new forInicialNombreApellidoJA();
+
+        bv = new whileInicialNombreJ();
+        bp = new whileInicialApellidoA();
+        bpj = new whileInicialNombreApellidoJA();
+
+        dwj = new doWhileInicialNombreJ();
+        djr = new doWhileInicialApellidoA();
+        dwa = new doWhileInicialNombreApellidoJA();
+
 
         //Parte Joan Bedon
 
@@ -162,6 +186,21 @@ public class App {
         na.inicialNombre(tamano, caracter);
         lastna.inicialApellido(tamano, caracter);
         naln.inicialNombreApellido(tamano, caracter);
+
+        System.out.println("JAIRO ANGULO");
+        System.out.println("CICLO FOR: "+"\n");
+        bn.forNombre(tamano, caracter);
+        bf.apellido(tamano, caracter);
+        ba.forNombreApellido(tamano, caracter);
+        System.out.println("\nCICLO WHILE: "+"\n");
+        bv.whileNombre(tamano, caracter);
+        bp.whileApellido(tamano, caracter);
+        bpj.whileNombreApellido(tamano, caracter);
+        System.out.println("\nCICLO DO WHILE: "+"\n");
+        dwj.dowhileNombre(tamano, caracter);
+        djr.dowhileApellido(tamano, caracter);
+        dwa.whileNombreApellido(tamano, caracter);
+
 
 
     

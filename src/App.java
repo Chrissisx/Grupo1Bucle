@@ -6,7 +6,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         int tamano; 
         char caracter;
-
+        
         //Declarar
 
         //Parte Christopher Criollo
@@ -26,6 +26,17 @@ public class App {
         //Parte Joan Bedon
 
         //Parte Camila Caicedo
+        forNombreC name;
+        forApellidoC lastname;
+        forNombreApellidoCC nal;
+
+        whileNombreC nam;
+        whileApellidoC lastnam;
+        whileNombreApellidoCC namls;
+
+        doWhileNombreC na;
+        doWhileApellidoC lastna;
+        doWhileNombreApellidoCC naln;
 
         //Parte Estefano Condoy
         forInicialNombreE ef ;
@@ -59,6 +70,17 @@ public class App {
         //Parte Joan Bedon
 
         //Parte Camila Caicedo
+        name = new forNombreC();
+        lastname = new forApellidoC();
+        nal = new forNombreApellidoCC();
+
+        nam = new whileNombreC();
+        lastnam = new whileApellidoC();
+        namls = new whileNombreApellidoCC();
+
+        na = new doWhileNombreC();
+        lastna = new doWhileApellidoC();
+        naln = new doWhileNombreApellidoCC();
 
         //Parte Estefano Condoy
         ef = new forInicialNombreE();
@@ -130,6 +152,18 @@ public class App {
         System.out.println();
         ecdw.inicialNombreApellidoEC(tamano, caracter);
         System.out.println();
+
+        name.inicialNombre(tamano, caracter);
+        lastname.inicialApellido(tamano, caracter);
+        nal.inicialNombreApellido(tamano, caracter);
+        nam.inicialNombre(tamano, caracter);
+        lastnam.inicialApellido(tamano, caracter);
+        namls.inicialNombreApellido(tamano, caracter);
+        na.inicialNombre(tamano, caracter);
+        lastna.inicialApellido(tamano, caracter);
+        naln.inicialNombreApellido(tamano, caracter);
+
+
     
     }
 }
